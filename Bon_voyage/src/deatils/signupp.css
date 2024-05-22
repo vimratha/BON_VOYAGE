@@ -1,0 +1,49 @@
+.formf h1 {
+  font-size: 3rem;
+  color: grey;
+  margin: 0rem 25%;
+}
+.formf form {
+  border-radius: 7px;
+  border: bold black;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  padding-left: 20%;
+}
+.email {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.email input {
+  width: 50%;
+}
+.password {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.password input {
+  width: 50%;
+}
+.formf button {
+  display: inline;
+  margin-top: 5%;
+  width: 50%;
+  margin-bottom: 5%;
+}
+@media screen and (max-width: 850px) {
+  .formf form {
+    border-radius: 7px;
+    border: bold black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    padding-left: 20%;
+  }
+}

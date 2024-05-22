@@ -1,0 +1,36 @@
+.cc {
+  margin: 4rem 6rem;
+  color: grey;
+}
+.cc form {
+  border-radius: 7px;
+  border: bold black;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+.cc input {
+  height: 3rem;
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+}
+.cc textarea {
+  height: 3rem;
+  padding: 1rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+}
+.cc button {
+  display: inline;
+}
+@media screen and (max-width: 850px) {
+  .cc {
+    margin: 4rem 2rem;
+  }
+  .cc form {
+    padding-top: 2rem;
+    width: 90%;
+  }
+}
